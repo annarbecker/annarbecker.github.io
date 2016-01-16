@@ -22,14 +22,20 @@ body {
   background-color: white;
 }
 
+p {
+  padding: 40px;
+  border: 3px limegreen solid;
+  margin: 30px;
+}
+
 .container {
   width: 80%;
   background-color: #00ffcc;
 }
 
 .container p, ul, ol {
+  display: block;
   background-color: white ;
-  margin: 0px;
 }
 
 .container h3 {
@@ -38,7 +44,10 @@ body {
   color: white;
 }
 
-
+.glyphicon {
+  font-size: 70px;
+  color: white;
+}
 
 /************ Project List *************/
 body#projectlist {
@@ -50,11 +59,6 @@ h3, a{
   text-align: left;
   font-weight: bold;
   font-family: 'Poiret One', cursive;
-}
-
-.glyphicon {
-  font-size: 70px;
-  color: white;
 }
 
 .col-sm-1 {
@@ -72,12 +76,10 @@ h3, a{
   font-family: 'Poiret One', cursive;
 }
 
-
 a:hover {
   font-weight: bold;
   color: #00cca3;
 }
-
 
 /************ About Me *************/
 .img-responsive {
@@ -98,8 +100,6 @@ a:hover {
   margin-bottom: 10px;
 }
 
-
-
 #aboutme p {
   background-color: white;
   margin: 0px;
@@ -112,28 +112,13 @@ a:hover {
   font-size: 16px;
 }
 
-
-
-
 /************ Hobbies *************/
 #hobbies {
   padding: 20px;
   margin-bottom: 10px;
 }
 
-#hobbies h3{
-  color: white;
-  font-family: 'Poiret One', cursive;
-  font-size: 30px;
-}
-
 #hobbies p {
   background-color: white;
   margin: 0px;
-
-}
-
-ol {
-  background-color: white;
-  padding-bottom: 15px;
 }
