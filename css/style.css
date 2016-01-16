@@ -3,23 +3,45 @@
   text-align: center;
   height: 200px;
   width: auto;
-  background: transparent;
+  background-color: lightgray;
 }
 
+.jumbotron h1 {
+  font-family: 'Poiret One', cursive;
+  font-size: 80px;
+}
 
-/************ Page Content Container *************/
+.navbar {
+  font-weight: lighter;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+}
+
 .container {
-  width: 90%;
+  width: 80%;
+  background-color: #00ffcc;
+}
+
+.container p, ul, ol {
+  background-color: white ;
+  margin: 0px;
 }
 
 .container h3 {
-  font-weight: lighter;
-  font-size: 50px;
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+  color: white;
 }
 
 
+
 /************ Project List *************/
-body.projectlist {
+body#projectlist {
   text-align: justify;
 }
 
@@ -27,6 +49,7 @@ h3, a{
   text-transform: uppercase;
   text-align: left;
   font-weight: bold;
+  font-family: 'Poiret One', cursive;
 }
 
 .glyphicon {
@@ -38,34 +61,26 @@ h3, a{
    margin-right: 30px;
  }
 
-.projectlist {
+#projectlist {
   background-color: #00ffcc;
   padding: 20px;
   margin-bottom: 10px;
 }
 
-.projectlist h3{
+#projectlist h3{
   color: white;
+  font-family: 'Poiret One', cursive;
 }
 
-.projectlist ul{
-  background-color: white;
-}
 
-.projectlist p {
-  background-color: white;
-  margin: 0px;
-  padding: 15px;
-}
-
-.projectlist a:hover {
+a:hover {
   font-weight: bold;
   color: #00cca3;
 }
 
 
 /************ About Me *************/
-img {
+.img-responsive {
   float: left;
   max-width: 20%;
   max-height: auto;
@@ -73,21 +88,19 @@ img {
   margin: 15px;
 }
 
-.aboutme {
+#aboutme {
   text-align: justify;
 }
 
-.aboutme {
+#aboutme {
   background-color: #00ffcc;
   padding: 20px;
   margin-bottom: 10px;
 }
 
-.aboutme h3{
-  color: white;
-}
 
-.aboutme p {
+
+#aboutme p {
   background-color: white;
   margin: 0px;
   padding: 15px;
@@ -100,21 +113,24 @@ img {
 }
 
 
+
+
 /************ Hobbies *************/
-.hobbies {
-  background-color: #00ffcc;
+#hobbies {
   padding: 20px;
   margin-bottom: 10px;
 }
 
-.hobbies h3{
+#hobbies h3{
   color: white;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
 }
 
-.hobbies p {
+#hobbies p {
   background-color: white;
   margin: 0px;
-  padding: 15px;
+
 }
 
 ol {
